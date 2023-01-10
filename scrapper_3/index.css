@@ -1,0 +1,190 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 320px;
+  min-height: 100vh;
+  font-size: 14px;
+  line-height: 1.38em;
+  font-family: "TT Norms Pro", "Arial", sans-serif;
+  color: #333;
+  word-wrap: break-word;
+  background-color: #fff;
+}
+
+.post-content ol,
+.post-content p,
+.post-content ul {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+address,
+dl,
+li,
+ol,
+ul {
+  margin: 0.63em 0;
+}
+
+ul.post-content__chapters a {
+  text-decoration: none;
+  color: #302683;
+  word-break: break-word;
+}
+.blog-section__wrap-inner {
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1070px;
+  margin: 0 auto;
+}
+
+.post-info--up .post-info__title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 42px;
+  line-height: 48px;
+}
+
+.post-content p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.post-content h2 {
+  margin-top: 30px;
+  font-size: 30px;
+  line-height: 1.2;
+}
+b,
+dt,
+strong {
+  font-weight: 700;
+}
+pre {
+  display: block;
+  margin: 1.7em 0;
+  padding: 0.7em;
+  line-height: 1.15em;
+  border: 1px solid #e8e8e8;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-size: 1em;
+  font-family: "Ubuntu Mono", "Menlo", "Monaco", "Consolas", "Courier New",
+    monospace;
+  background-color: #f8f8f8;
+}
+
+pre code {
+  word-break: break-word;
+  word-wrap: break-word;
+  padding: 0;
+  font-size: inherit;
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+}
+
+code {
+  word-break: break-word;
+  word-wrap: break-word;
+  padding: 1px 4px 2px;
+  font-size: inherit;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 4px;
+  border-color: #d5d5d5;
+}
+
+.hljs {
+  display: block;
+  color: black;
+}
+
+.hljs {
+  display: block;
+  color: black;
+}
+.hljs-keyword,
+.hljs-builtin-name,
+.hljs-selector-id {
+  color: blue;
+}
+.hljs-subst,
+.hljs-attr {
+  color: black;
+}
+.hljs-title,
+.hljs-type {
+  color: #0000a2;
+}
+.hljs-literal {
+  color: rgb(88, 92, 246);
+}
+.hljs-number {
+  color: rgb(0, 0, 205);
+}
+.hljs-regexp,
+.hljs-string,
+.bash,
+.hljs-doctag,
+.hljs-selector-pseudo,
+.hljs-code {
+  color: rgb(3, 106, 7);
+}
+.hljs-selector-class,
+.hljs-variable {
+  color: rgb(49, 132, 149);
+}
+.hljs-selector-tag,
+.hljs-selector-attr,
+.hljs-link {
+  color: rgb(197, 6, 11);
+}
+.hljs-attribute {
+  color: rgb(109, 121, 222);
+}
+.hljs-comment,
+.hljs-quote {
+  color: rgb(188, 20, 175);
+}
+.hljs-meta {
+  color: rgb(104, 104, 91);
+}
+.hljs-tag {
+  color: rgb(0, 22, 142);
+}
+.hljs-addition {
+  background-color: rgba(155, 185, 85, 0.2);
+}
+.hljs-deletion {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+.hljs-params,
+.hljs-built_in {
+  color: rgb(49, 132, 149);
+}
+
+.post-content figcaption {
+  margin: 10px 0 0;
+  color: #757575;
+}
+
+.post-content pre {
+  line-height: 1.5em;
+}
+
+.post-content a {
+  color: #302683;
+  text-decoration: underline;
+  word-break: break-word;
+}

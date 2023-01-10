@@ -1,0 +1,148 @@
+*{padding: 0; margin: 0; transition: all .2s;}
+
+h1{font-size:2.4em; text-shadow: 1px 1px 1px #3a3a3a, 1px 1px 1px #666; }
+h2{font-size:2em; padding-left: 5px;}
+h3{font-size:1.8em; padding-left: 3px;}
+h4{font-size:1.6em}
+h5{font-size:1.4em}
+h6{font-size:.9em;font-weight:400;margin-bottom:5px;}
+h1,h2,h3,h4,h5{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 5px}
+
+header, section, footer, aside, nav, main, article, figure {display: block;}
+
+p {padding: 2px;margin: 5px; text-align:justify;}
+blockquote{padding: 5px 5px 5px 20px; color:#800C1F}
+
+/* зображення */
+img {margin: 1px;}
+a img {border: 0;}
+ul,ol {padding: 0 0 0 30px}
+.flexible-image {max-width: 90%; margin: 1px;}
+.signature {font-size: .9em; font-family: courier, serif;}
+
+.img-left {float: left;margin: 10px;}
+.img-center {text-align:center; max-width:100%; padding-top: 5px; padding-bottom: 5px;}
+.img-right {float: right;margin: 10px;}
+
+.fig-left {float: left;}
+.fig-center {text-align:center; margin-top: 5px; margin-bottom: 5px;}
+.fig-right {float: right;}
+
+/* вирівнювання */
+.in-center {text-align: center;}
+.in-left {text-align:left;}
+.in-right {text-align:right;}
+
+/* списки */
+.list-disc {padding-left:20px; list-style-type:disc;}
+.list-circle {padding-left:20px; list-style-type:circle;}
+.list-square {padding-left:20px; list-style-type:square;}
+.list-none {padding-left:20px; list-style-type:none;}
+.list-ordered {padding-left:20px;}
+
+/* короткий опис на сторінці */
+.brief {background: #8bc34a; padding: 5px 10px; font-size: 1.2em; font-family: "Indie Flower", cursive; text-align: center; margin: 0 0 10px 0; box-shadow: 0 0 1px green, 0 0 1px #000; }
+
+/* голова сторінки */
+header {font-family: "Trebuchet MS", sans-serif; padding: 10px;}
+.sitename {font-family:'Segoe UI',Arial,sans-serif; font-size:1.1em; padding:10px 0; float: right; text-align: right;}
+
+.topnav {overflow: hidden; background-color: #333; text-shadow: 1px 1px 1px #000, 1px 1px 1px #000;}
+.topnav a {float: left; display: block; color: #f2f2f2; text-align: center; padding: 14px 16px; text-decoration: none; font-size: 17px;}
+.topnav a:hover {background-color: #ccc; color: #000;}
+.active {background-color: #269D9A; color: #fff;}
+.topnav .icon {display: none;}
+
+.text-shadow-black {text-shadow: 1px 1px 1px #000, 1px 1px 1px #000;}
+
+.left-sidebar {min-width: 280px; max-height: 100%;}
+.sidenav {max-width: 100%; min-width:200px; position: relative; z-index: 1; left: 0; background: #eee; overflow-x: hidden;}
+.sidenav a {text-decoration: none; font-size: 1.2em; color: #2196F3; display: block; padding: 5px 10px;}
+.sidenav a:hover {background: #ccc; color: #064579;}
+.title-sidenav {padding-left: 20px;}
+
+/* контент */
+
+.right-sidebar {background: #eee; padding: 10px; max-height: 100%;}
+.right-sidebar-list {list-style: none; padding: 0 0 0 10px;}
+
+.right-sidebar li {display: inline-block;}
+.right-sidebar li a {text-decoration: none;}
+.right-sidebar li a:hover {color: #D81235; text-decoration: none;}
+
+.frame-header {min-height: 15%;  min-width: 100%; border:0; position: absolute; left: 0; right: 0; top: 0; bottom: 0;}
+.frame-left-sidebar {min-height: 100%; min-width: 100%; border:0;}
+.frame-right-sidebar {min-height: 100%; min-width: 100%; border:0;}
+.frame-footer {width: 100%; border: 0;}
+
+.jsfiddle-code {background: #ddd;padding: 0 5px 5px;margin-left: 10px;}
+
+main {
+    display: grid; grid-template-columns:6fr; grid-template-rows:1fr; grid-column-gap:1px; grid-row-gap:1px;
+    border: 1px solid #000; border-radius: 1px; max-width: 1920px; background: #fff; margin: 100px auto 0 auto;
+    box-shadow: 0 0 1px blue, 0 0 1em #87D6E2;}
+
+.inner-grid-content {display: grid; grid-template-columns:1fr 1fr; grid-template-rows:1fr 1fr; grid-column-gap:10px; grid-row-gap:10px;
+    background: #eee; margin: 0 auto; padding: 10px}
+.inner-grid-code {display: grid; grid-template-columns:1fr 1fr 1fr; grid-template-rows:1fr; grid-column-gap:10px; grid-row-gap:10px;
+    max-width: 100%; background: #eee; margin: 0 auto;}
+
+.inner-block-lesson {background: #EDF7FF; padding: 10px; border: 1px dashed #000; text-align:center;}
+.inner-block-code {background: #EDF7FF; padding: 5px; border: 1px dashed #000; box-shadow: 0 0 1px #ccc, 0 0 1em #ccc;}
+
+.learn-link {font-size:1.1em; color: #fff; text-decoration: none;}
+
+.videowrap {margin: 10px auto;}
+.videoblock {position: relative; padding-bottom: 65.25%; height: 0; overflow: hidden;}
+.videoblock iframe, object, embed {border: 0; position: absolute; top: 0; left: 10px; width: 100%; height: 100%;}
+.video-title {font-size: 2em; text-align: center; color:#00008b;}
+
+.hr-bottom {height: 2px; background: #666;}
+.note-warning {text-align: justify; color: #bbb; font-size:.8em;}
+
+.keys {font-size:1pt;padding:0;text-align: center;color: #eee;}
+.heading {color:yellow; text-shadow: 1px 1px 1px #000, 1px 1px 1px #000;}
+.predisqus {border:none; width:100%;}
+
+/* футер
+.footer {background: #2196F3;}
+*/
+
+.footer-wrapper {display: grid; grid-template-columns:6fr; grid-template-rows:1fr; grid-column-gap:1px; grid-row-gap:1px; border: 1px solid #000; border-radius: 1px; max-width: 1920px; background: #eee; margin: 5px auto; font-size:.8em; position: relative; left: 0; right: 0; top: 10px; bottom: 0; box-shadow: 0 0 1px #000, 0 0 1em #404040;}
+.footer-left, .footer-right {padding: 10px;}
+.footer-middle {background: #fff; text-align:center; padding: 10px;}
+
+/*.codepen {box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;}*/
+
+/* CSS from pages W3Schools */
+.intro {font-size:16px;color:#001188;}
+img.viewport {border: 10px solid #f1f1f1;border-radius: 3px;}
+span.marked, span.deprecated {color:#e80000;background-color:transparent;}
+label {font-weight:normal;}
+a{color: inherit;background-color:transparent;-webkit-text-decoration-skip:objects}
+a:active,a:hover{outline-width:0; color: #8b0000; text-decoration: none;}
+code {font-family: Consolas,"courier new"; color: brown; background-color: #f1f1f1; padding: 0 4px; font-size: 105%;}
+.mylist {float:left;width:120px;}
+.mylist a:link,.mylist a:visited {text-decoration:none;}
+.mylist a:hover,.mylist a:active {text-decoration:underline; text-decoration-color: mediumblue;}
+.html5badge {background-image:url('../images/html5_badge20.png'); background-repeat:no-repeat; background-position:right;}
+.mytestbtn {background-color:#f44336;color:white;padding:15px 25px;text-align:center;text-decoration:none;display: inline-block;}
+.nextprev a.w3-right, .nextprev a.w3-left {background-color:#4CAF50;color: #ffffff;border-color: #4CAF50;}
+.notsupported,.notsupported:hover,.notsupported:active,.notsupported:visited,.notsupported:link {color:rgb(197,128,128)}
+.w3-btn, .w3-btn:link, .w3-btn:visited {color: #FFFFFF; background-color: #4CAF50;}
+.w3-btn a:hover {background-color: #ccc; color: #000;}
+.w3-bar-block {background: #eee;}
+.w3-example{background-color:#f1f1f1;padding:0.01em 16px;margin:20px 0;box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important}
+.w3-info {background-color: #ddffdd;border-left: 6px solid #4CAF50;}
+.w3-note {background-color: #ffffcc;border-left: 6px solid #ffeb3b; padding: 10px; box-shadow: 0 0 1px #ff4500, 0 0 1em #c0c0c0;}
+.w3-theme {color:#fff !important;background-color:#73AD21 !important;background-color:#4CAF50 !important}
+.w3-warning{background-color:#ffdddd;border-left:6px solid #f44336}
+#htmltags .w3-table-all tr:nth-child(odd) {background-color: #f1f1f1;}
+#htmltags .w3-table-all tr:nth-child(even) {background-color: #ffffff;}
+#htmltags .w3-table-all td:first-child {width: 30%!important;}
+#w3-exerciseform {background-color:#555555;padding:16px;color:#ffffff;}
+#w3-exerciseform .exercisewindow {background-color:#ffffff;padding:16px;color:#000000;}
+#w3-exerciseform .exerciseprecontainer {background-color:#f1f1f1;padding:16px;font-size:120%;font-family:Consolas,"Courier New", Courier, monospace;}
+#w3-exerciseform .exerciseprecontainer pre {display: block;}
+#w3-exerciseform .exerciseprecontainer input {padding:1px;border: 1px solid transparent;height:1.3em;}
+
